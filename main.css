@@ -1,3 +1,44 @@
-body {
-	background-color: red;
+
+/*p {
+
+	border-bottom: 3px solid red;
+}*/
+
+#main-div-2 .kemit {
+border: 3px dotted purple;
+
+}
+
+#main-div-2 > * {
+	border: 4px solid black;
+}
+
+h2 ~ p {
+	border: 3px solid blue;
+}
+
+#li-1 {
+	font-size: 30px;
+}
+
+#li-2 {
+	font-weight: bold;
+}
+
+#li-3 {
+	text-transform: uppercase;
+}
+
+#mystery-ul {
+	font-family: 'Mystery Quest';
+}
+
+#flex-kermit {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+#flex-kermit img {
+	max-width: 30%;
 }
